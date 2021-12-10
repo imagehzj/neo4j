@@ -4,7 +4,7 @@ LABEL maintainer="shoothzj@gmail.com"
 
 WORKDIR /opt/sh
 
-ARG version=4.3.3
+ARG version=4.4.0
 
 RUN wget -O neo4j.tar.gz https://neo4j.com/artifact.php?name=neo4j-community-$version-unix.tar.gz && \
 mkdir /opt/sh/neo4j && \
